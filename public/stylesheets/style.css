@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.square {
+  background-color: black;
+  height: 120px;
+  border: 2px solid white;
+}
+
+.emptysquare {
+  background-color: white;
+  height: 90px;
+  border: 2px solid white;
+}
+span {
+  font-size: 124px;
+  color: white;
+  text-align: center;
+}
