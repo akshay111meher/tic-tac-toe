@@ -16,7 +16,7 @@ io.on('connection', function (socket) {
             var tx = {
                 to : contractDeploymentDetails.contractAddress,
                 data : encoded,
-                gas: 4600000,
+                gas: 200000,
                 value: parseInt(bettingAmount),
                 nonce: nonce
             }
@@ -96,7 +96,7 @@ io.on('connection', function (socket) {
             var tx = {
                 to : contractDeploymentDetails.contractAddress,
                 data : encoded,
-                gas: 4600000,
+                gas: 200000,
                 value: bettingAmount,
                 nonce: nonce
             }
@@ -130,7 +130,7 @@ io.on('connection', function (socket) {
             var tx = {
                 to : contractDeploymentDetails.contractAddress,
                 data : encoded,
-                gas: 4600000,
+                gas: 200000,
                 nonce: nonce
             }
         
