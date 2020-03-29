@@ -26,7 +26,7 @@ io.on('connection', function (socket) {
                     socket.emit('createNewGame',{staus:400, message:"Error Signing Transaction"});
                 }else{
                     web3.eth.sendSignedTransaction(response.rawTransaction,function(err,result){
-                        // console.log(err,result)
+                        console.log(err,result)
                         if(err){
                             socket.emit('createNewGame',{staus:400, message:"Failed at Contract/ Check Balance/ Contract Rules Incompatible/ Change GameId - GameId may be already allocated"});       
                         }else{
