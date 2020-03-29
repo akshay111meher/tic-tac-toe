@@ -1,3 +1,3 @@
 #!/bin/bash
 
-PORT=8000 nohup npm start
+PORT=8000 npm start
