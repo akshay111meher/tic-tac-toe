@@ -1,7 +1,7 @@
 let row = process.argv[2] || 2;
 let column = process.argv[3] || 2;
 var Web3 = require('web3');
-var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+var web3 = new Web3(new Web3.providers.HttpProvider("http://68.183.87.16:8545"));
 var fs = require("fs");
 var password =  ""
 let contractName = "GameBox"

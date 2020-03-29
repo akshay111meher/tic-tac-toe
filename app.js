@@ -4,7 +4,7 @@ var fs = require('fs');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var Web3 = require('web3');
-    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://68.183.87.16:8545"));
 
     contractData = JSON.parse(fs.readFileSync("Game-abibytecode.json","utf8"));
     contractDeploymentDetails = JSON.parse(fs.readFileSync("Game.json","utf8"));
